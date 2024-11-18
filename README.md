@@ -11,6 +11,5 @@
 ## Installation
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/your-username/FinanceManagementApp.git
-cd FinanceManagementApp
-
+git clone 
+https://github.com/parsa-faraji/Project2-FinanceManagementApp
