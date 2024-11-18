@@ -1,0 +1,88 @@
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon?
+._*
+
+# Thumbnails
+._*
+
+# Temporary files
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Xcode files
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/xcshareddata/
+*.xccheckout
+*.moved-aside
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+
+# Derived Data
+DerivedData/
+build/
+
+# Logs
+*.log
+
+# Breakpoints
+*.xcdebugger/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Temporary files (e.g., generated code, compiled output)
+*.tmp
+*.swp
+*.lock
+
+# Bundle artifacts
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Archives
+*.xcarchive
+
+# Firebase
+GoogleService-Info.plist
+
+# Realm database
+*.realm
+*.realm.lock
+*.realm.management
+
+# IDE Preferences
+xcuserdata
+.idea/
+.vscode/
