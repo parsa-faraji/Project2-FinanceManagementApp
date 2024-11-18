@@ -4,7 +4,7 @@
 [Parsa Faraji Alamouti]
 
 ## Video demonstration
-https://drive.google.com/drive/folders/1CnIzimW4J762rRjrbcpp00qFlDf9Y1ho?usp=sharing
+[https://drive.google.com/drive/folders/1CnIzimW4J762rRjrbcpp00qFlDf9Y1ho?usp=sharing](https://drive.google.com/drive/folders/1W2ayexiQ18Kqeww54rNprIWYWzee06y4?usp=drive_link)
 
 ## Project Objective
 The **FinanceManagementApp** is designed to help individuals manage their personal finances efficiently. This application enables users to record and categorize transactions, generate monthly summaries, and track expenses to achieve better financial control.
@@ -20,26 +20,8 @@ The **FinanceManagementApp** is designed to help individuals manage their person
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/parsa-faraji/FinanceManagementApp
-Navigate to the project directory:
-bash
-Copy code
-cd FinanceManagementApp
-Compile the program using a C++ compiler:
-bash
-Copy code
-g++ -std=c++17 -o FinanceManagementApp main.cpp util.cpp Transaction.cpp Account.cpp Date.cpp Time.cpp
-Run the program:
-bash
-Copy code
-./FinanceManagementApp
-Usage
-Launch the program.
-Follow the prompts to:
-Record transactions.
-View monthly summaries.
-Exit the program when finished.
-Ensure that all transaction details are entered correctly to avoid errors.
+   git clone (https://github.com/parsa-faraji/Project2-FinanceManagementApp)
+
 
 Contributing
 Contributions are welcome! Feel free to submit issues or pull requests for any improvements or new features.
@@ -48,7 +30,7 @@ License
 This project is licensed under the MIT License.
 
 Acknowledgements
-Thanks to the OpenAI team for providing C++ guidance and development support.
-Screenshot
+Special thanks to Professor Ali Saremi
+
 <img width="988" alt="Screenshot 2024-10-02 at 9 23 27 PM" src="https://github.com/user-attachments/assets/48d7b0b5-88e7-490b-9671-6e7a1673da66"> ```
 Now you can copy-paste the entire text easily! Let me know if further adjustments are needed.
