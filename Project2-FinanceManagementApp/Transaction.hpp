@@ -9,9 +9,9 @@
 #define Transaction_hpp
 
 #include <string>
-#include "Date.h"
-#include "Account.h"
-#include "Time.h"
+#include "Date.hpp"
+#include "Account.hpp"
+#include "Time.hpp"
 
 using std::string;
 
