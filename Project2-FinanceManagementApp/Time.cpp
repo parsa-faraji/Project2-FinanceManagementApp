@@ -32,6 +32,8 @@ bool Time::isValidTime() const {
     return hour >= 0 && hour <= 23 && minute >= 0 && minute <= 59;
 }
 
+// opeartor overload
+
 bool Time::operator==(const Time& other) const {
     return hour == other.hour && minute == other.minute;
 }
