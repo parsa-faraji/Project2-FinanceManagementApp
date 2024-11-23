@@ -24,11 +24,11 @@ enum class TransactionMethod {
 // transaction structure
 struct Transaction {
     string transactionType;  // e.g., "Purchase" or "Deposit"
+    string category;
     Date date;
     Time time;
     Account account;
     double amount;
-    string category;
     TransactionMethod method;
 
     // utility functions
@@ -38,7 +38,7 @@ struct Transaction {
     TransactionMethod getMethod() const { return method; }
     bool isValidTransaction() const;
 
-    // csv serialization
+    // csv management
     string toCSV() const;
     static Transaction fromCSV(const string& csvLine);
 

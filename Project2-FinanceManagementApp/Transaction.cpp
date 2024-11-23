@@ -26,7 +26,8 @@ string Transaction::toCSV() const {
         << setfill('0') << setw(2) << date.getDay() << "/"
         << setw(4) << date.getYear() << "," // ensure year is always 4 digits
         << setfill('0') << setw(2) << time.getHour() << ":"
-        << setfill('0') << setw(2) << time.getMinute() << ","
+        << setfill('0') << setw(2) << time.getMinute()
+        << setw(2) << time.getDayOrNight()
         << account.getAccountNumber() << ","
         << fixed << setprecision(2) << amount << ","
         << category << ","

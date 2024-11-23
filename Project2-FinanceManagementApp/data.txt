@@ -1,0 +1,2 @@
+Purchase,12/12/2024,12:00,121221122,-100.00,Transport,Online
+Deposit,12/12/2024,12:00,121212124,1000.00,Income,Online

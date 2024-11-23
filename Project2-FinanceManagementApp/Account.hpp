@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+// struct to resemble accounts
 struct Account {
     long long accountNumber;
     double balance;

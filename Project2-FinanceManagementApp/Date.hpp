@@ -3,7 +3,9 @@
 
 #include <iostream>
 
+// Date structure - used for recording and reporting date
 struct Date {
+    // attributes
     short int year;
     short int month;
     short int day;
@@ -22,7 +24,7 @@ struct Date {
     short int getMonth() const;
     short int getDay() const;
 
-    // utility function
+    // utility function to check if a date is valid
     bool isValidDate() const;
 
     // equality operator

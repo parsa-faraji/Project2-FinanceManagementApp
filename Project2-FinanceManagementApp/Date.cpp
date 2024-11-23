@@ -53,7 +53,7 @@ bool Date::isValidDate() const {
     if (month == 2 && ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0))) maxDays = 29;
 
     // validate the month and day
-    return month >= 1 && month <= 12 && day >= 1 && day <= maxDays;
+    return month >= 1 && month <= 12 && day >= 1 && day <= maxDays && year > 1;
 }
 
 // equality operator: checks if two dates are equal
@@ -63,6 +63,7 @@ bool Date::operator==(const Date& other) const {
 
 // stream insertion operator: formats the date as MM/DD/YYYY
 std::ostream& operator<<(std::ostream& os, const Date& date) {
+    // ternary operator to determine how date is displayed
     os << (date.month < 10 ? "0" : "") << date.month << "/"
        << (date.day < 10 ? "0" : "") << date.day << "/"
        << date.year;
